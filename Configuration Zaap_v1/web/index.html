@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Zaap</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Zaap</h1>
+    <button onclick="document.getElementById('fileConfig').click();">Votre Config</button>
+    <input type="file" id="fileConfig" accept=".json" style="display: none;" onchange="loadConfiguration(this)">
+    <ol id="characterList">
+    </ol>
+    <button id="startButton">Start</button>
+    <button id="saveButton" style="display:none;">Save</button>
+    <script type="text/javascript" src="eel.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+    </div>
+</body>
+</html>

@@ -1,0 +1,5 @@
+pyautogui
+eel
+keyboard
+pypiwin32  # pour win32gui
+pyinstaller
